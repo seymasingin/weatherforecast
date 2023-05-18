@@ -21,7 +21,7 @@ export default function Home() {
   weekdays= ["Sunday", "Monday", "Tuesday","Wednesday", "Thursday", "Friday", "Saturday"]
  
   useEffect(()=>{
-    return() =>  axios.get(`http://api.weatherapi.com/v1/forecast.json?key=${key}&q=${search}&days=7&aqi=no&alerts=no`)
+    return() =>  axios.get(`http://api.weatherapi.com/v1/forecast.json?key=${key}&q=${search}&days=3&aqi=no&alerts=no`)
       .then(response=>setCity(response.data)) 
       .catch(function (error) {
         console.log(error);
