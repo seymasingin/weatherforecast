@@ -5,7 +5,6 @@ The Weather Channel App on Iphone has been cloned
 # <sub>**Topics**</sub>
 - React Native CLI
 - Axios
-- Responsive Design
 
 # <sub>**Getting Started**</sub>
 First, install node modules 
